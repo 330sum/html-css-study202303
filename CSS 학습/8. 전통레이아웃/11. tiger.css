@@ -1,0 +1,70 @@
+@import url('../../common.css');
+
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+header {
+    /* border: 4px solid red; */
+    background-color: #143653;
+    padding: 20px 0 40px;
+    text-align: center;
+    color: #ccca38;
+    font-size: 2em;  
+    font-weight: 700;
+}
+header strong {
+    color: #fff;
+    letter-spacing: -10px;
+    font-size: 3em;
+}
+header span {
+    font-size: 1.5em;
+}
+header em {
+    font-size: 2em;
+    color: #ccc;
+}
+
+.container {
+    /* border: 4px solid blue; */
+}
+.container ul {
+    /* border: 4px solid red; */
+    background: #ccc;
+    float: left;
+    width: 25%;
+    padding: 30px;
+    height: 818.73px;
+}
+.container ul li {
+    margin-bottom: 20px;
+}
+.container ul li a {
+    text-decoration: underline;
+}
+
+.container .content {
+    /* border: 4px solid aqua; */
+    float: left;
+    width: 75%;
+
+}
+.container .content h2 {
+    background: #860006;
+    padding: 15px 20px;
+    color: #e7df3d;
+    font-family: cursive;
+    font-size: 1.5em;
+}
+.container .content p {
+    padding: 25px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+footer {
+    /* border: 4px solid green; */
+    background: #aaa;
+    padding: 20px;
+}
